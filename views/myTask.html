@@ -12,8 +12,8 @@
 	<script type="text/javascript" src="/js/jquery.ui.widget.js"></script>
 	<script type="text/javascript" src="/js/jquery.ui.datepicker.js"></script>
 	<script type="text/javascript" src="/js/jquery.ui.datepicker-zh-CN.js"></script>
-	<script type="text/javascript" src="/js/views/myTask.js"></script>
 	<script type="text/javascript" src="/js/common.js"></script>
+	<script type="text/javascript" src="/js/views/myTask.js"></script>
 	<link href="/css/bootstrap.css" rel="stylesheet">
 	<link href="/css/font-awesome.css" rel="stylesheet">
 	<link href="/css/base/jquery.ui.all.css" rel="stylesheet">
@@ -48,7 +48,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="module-content" id="task">   <!-- 页面业务主体 -->
+		<div class="module-content" id="task">   <!-- 页面业务主体-任务 -->
 			<div class="task-panel">
 				<div class="task-container" id="today">  <!-- 今天要做 -->
 					<div class="container-header">
@@ -157,6 +157,123 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="module-content" id="report" style="display: none">    <!-- 页面业务主体-周报 -->
+			<div class="report-panel">
+				<div class="week-report this-week-report">    <!-- 本周周报 -->
+					<h1>本周工作周报</h1>
+					<div class="task-panel">
+						<div class="task-container" style="width: 90%;"> 
+							<div class="container-header">
+								<h4>本周要做</h4>
+								<div class="count">
+									1
+								</div>
+							</div>
+							<div class="container-content">
+								<div class="task-content">
+									<div class="content-header">
+										<input type="checkbox"> 任务1
+									</div>
+									<div class="content-content">
+										<div class="comment">
+											<i class="icon-comment"></i> <span>1</span>
+										</div>
+										<div class="important">
+											<i class="icon-star"></i>
+										</div>
+										<div class="title">
+											<i class="icon-desktop"></i><span> 完成测试工作</span>
+										</div>
+										<div class="status-done">已完成</div>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="task-content">
+									<div class="content-header">
+										<input type="checkbox"> 任务2
+									</div>
+									<div class="content-content">
+										<div class="comment">
+											<i class="icon-comment"></i> <span>1</span>
+										</div>
+										<div class="important">
+											<i class="icon-star"></i>
+										</div>
+										<div class="title">
+											<i class="icon-desktop"></i><span> 部署</span>
+										</div>
+										<div class="status-todo">未完成</div>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							<div class="container-footer">
+						<div class="new-task">
+							<i class="icon-plus-sign"></i> 新建任务
+						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="week-report next-week-report">    <!-- 下周周报 -->
+					<h1>下周工作周报</h1>
+					<div class="task-panel">
+						<div class="task-container" style="width: 90%;"> 
+							<div class="container-header">
+								<h4>本周要做</h4>
+								<div class="count">
+									1
+								</div>
+							</div>
+							<div class="container-content">
+								<div class="task-content">
+									<div class="content-header">
+										<input type="checkbox"> 任务1
+									</div>
+									<div class="content-content">
+										<div class="comment">
+											<i class="icon-comment"></i> <span>1</span>
+										</div>
+										<div class="important">
+											<i class="icon-star"></i>
+										</div>
+										<div class="title">
+											<i class="icon-desktop"></i><span> 完成测试工作</span>
+										</div>
+										<div class="status-done">已完成</div>
+									</div>
+									<div class="clear"></div>
+								</div>
+								<div class="task-content">
+									<div class="content-header">
+										<input type="checkbox"> 任务2
+									</div>
+									<div class="content-content">
+										<div class="comment">
+											<i class="icon-comment"></i> <span>1</span>
+										</div>
+										<div class="important">
+											<i class="icon-star"></i>
+										</div>
+										<div class="title">
+											<i class="icon-desktop"></i><span> 部署</span>
+										</div>
+										<div class="status-todo">未完成</div>
+									</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+							<div class="container-footer">
+						<div class="new-task">
+							<i class="icon-plus-sign"></i> 新建任务
+						</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 	<div class="pop-module" id="newTask" style="display: none">   <!-- 我的——新增任务 -->

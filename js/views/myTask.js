@@ -70,17 +70,20 @@ $(function(){
 		var index = $(this).index();
 		switch(index) {
 			case 0:
+				$("#report").css("display", "none");
 				$("#task").css("display", "block");
 				break;
 			case 1:
+				$("#report").css("display", "none");
 				$("#task").css("display", "none");
 				break;
 			case 2:
+				$("#report").css("display", "block");
 				$("#task").css("display", "none");
 				break;
 			default: break;
 		}
-	})
+	});
 });
 
 // 编辑模块中，点击控件，可编辑

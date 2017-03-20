@@ -11,10 +11,8 @@
 {
     font-size: 20px;
     line-height: 24px;
-
     float: left;
-
-    padding: 29px;
+    padding: 28px;
 }
 
 #myTask .module-header h2 i
@@ -33,7 +31,7 @@
 {
     float: right;
 
-    padding: 20px;
+    padding: 16px;
 }
 
 #myTask .module-content
@@ -263,10 +261,8 @@
 }
 
 #newTask .module-content{
-	height: 354px;
+	min-height: 354px;
     padding: 20px;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 #newTask .module-content .task-table{
@@ -325,6 +321,7 @@
 #myTask .nav_tab ul{
     margin: 0px;
     padding: 0px;
+    height: 80px;
 }
 
 #myTask .nav_tab ul li{
@@ -334,7 +331,7 @@
     padding: 0;    
     font-size: 16px;
     border-bottom: solid 2px transparent;
-    padding: 14px 8px 30px 8px;
+    padding: 14px 8px 29px 8px;
     color: #777;
     cursor: pointer;
 }
@@ -346,4 +343,21 @@
 #myTask .nav_tab ul li.active{
     color: #da4f4a;
     border-bottom-color: #da4f4a;
+}
+
+#report .report-panel{
+    height: 100%;
+    width: 100%;
+}
+
+#report .week-report{
+    float: left;
+    height: 80%;
+    width: 30%;
+    padding: 5% 10%;
+}
+
+#report .week-report h1{
+    font-size: 24px;
+    font-weight: bold;
 }
