@@ -61,6 +61,26 @@ $(function(){
 	editTask();
 	editDate();
 	editStatus();
+
+
+	//页面切换
+	$("#myTask .nav_tab ul li").click(function(){
+		$("#myTask .nav_tab ul li").removeClass('active');
+		$(this).addClass('active');
+		var index = $(this).index();
+		switch(index) {
+			case 0:
+				$("#task").css("display", "block");
+				break;
+			case 1:
+				$("#task").css("display", "none");
+				break;
+			case 2:
+				$("#task").css("display", "none");
+				break;
+			default: break;
+		}
+	})
 });
 
 // 编辑模块中，点击控件，可编辑
