@@ -1,0 +1,138 @@
+html body
+{
+    overflow-x: hidden;
+
+    height: 100%;
+    padding: 0;
+
+    color: #484744;
+    background: #f8f6f2;
+}
+body
+{
+    font-family: 'Helvetica Neue',helvetica,'lucida grande','lucida sans unicode',lucida,'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+    font-size: 14px;
+
+    height: 100%;
+
+    color: #484744;
+    background-color: #fff;
+}
+li
+{
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+
+    color: #6f6e6b;
+    outline: 0 none;
+}
+input[type!=checkbox]
+{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+         -o-appearance: none;
+            appearance: none;
+}
+input[type=checkbox]
+{
+    border: none;
+}
+iframe{
+	width: 100%;
+	border-width: 0px;
+}
+
+/*取消和确认按钮*/
+.btn-panel input{
+    padding: 5px 30px;
+    border: none;
+    border-radius: 6px;
+}
+input.btn-confirm{
+    background-color: #54d09f;
+    color: #fff;
+}
+
+input.btn-cancel{
+    color: #acaba7;
+    margin-left: 10px;
+}
+
+input.btn-confirm:hover {
+    background-color: #4dbe91;
+    border-color: #4dbe91;
+}
+
+.pop-module{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -400px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.business-panel
+{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    overflow: hidden;
+    height: 100%;
+    background-color: #f8f6f2;
+}
+
+.mask-module{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/mask.png);
+    /*opacity: .3;*/
+    display: none;
+}
+
+input,textarea{
+    resize: vertical;
+    padding: 6px 7px;
+    font-size: 14px;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+#newTask .sod_select .sod_list li {
+    padding: 4px;
+}
+
+#newTask .sod_select{
+    padding: 4px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: #ccc;
+}
+
+#newTask .sod_select:before, .sod_select:after {
+    top: 8px;
+}
+
+#newTask .sod_select:after{
+    bottom: 8px;
+    top: auto;
+}

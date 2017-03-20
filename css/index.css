@@ -1,0 +1,17 @@
+.kePublic .content .user-headsculpture
+{
+    position: absolute;
+    bottom: 10px;
+    left: 35px;
+
+    width: 55px;
+    height: 55px;
+}
+
+.kePublic .content .user-headsculpture img
+{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 100%;
+}

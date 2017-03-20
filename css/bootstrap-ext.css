@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+
+/* 可以全局使用的扩展 */
+.clear {
+	clear:both;
+}
+.text-left {
+	text-align:left;
+}
+.text-right {
+	text-align:right;
+}
+.text-center {
+	text-align:center;
+}
+form{
+    margin:0;
+    padding:0;
+}
+ 
+/* panel 扩展 */
+.panel{
+	clear:both;
+	overflow: hidden;
+	margin-bottom:20px;
+	border:1px solid #ddd;	
+	background:#fff;
+}
+.panel .container-fluid {
+	padding:0;
+}
+.panel .panel-head{
+	height: 35px;
+	position: relative;
+	background: url("images/panel/white-title.png");
+	line-height: 34px;
+	padding: 0 10px;
+	font-size: 14px;
+	color: #2C2C2C;
+	overflow:hidden;
+}
+	/* 面板左边折叠 */
+.panel .panel-head .toggle-left{
+	display: block;
+	height: 18px;
+	width: 18px;
+	background: url("images/panel/slidebuttons.png") -19px -18px;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+
+.panel .panel-head .toggle-left.toggle-hide{
+	display: block;
+	height: 18px;
+	width: 18px;
+	background: url("images/panel/slidebuttons.png") -38px -18px;
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+	/* 面板右边折叠 */
+.panel .panel-head .toggle-right{
+	display: block;
+	height: 18px;
+	width: 18px;
+	background: url("images/panel/slidebuttons.png") -38px -18px;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+.panel .panel-head .toggle-right.toggle-hide{
+	display: block;
+	height: 18px;
+	width: 18px;
+	background: url("images/panel/slidebuttons.png") -19px -18px;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+
+.panel-collapsed .panel-head .row-fluid,
+.panel-collapsed .panel-head .row {
+	padding-top:35px;
+}
+
+.panel .panel-head .toggle-left.toggle-hide{
+	background-position: -38px -18px;
+}
+.panel .panel-content {
+	padding:10px;
+}
+.panel .panel-foot {
+	
+}
+	/* 面板白色风格 */
+.content.white .panel .panel-head{
+	background: url("images/panel/white-title.png");
+	color: #2C2C2C;
+}
+.content.white .panel .panel-head .toggle{
+	background: url("images/panel/slidebuttons.png") right -18px;
+}
+.content.white .panel .panel-head .toggle.toggle-hide{
+	background: url("images/panel/slidebuttons.png") right -18px;
+}
+	/* 面板白色风格左边折叠 */
+.content.white .panel .panel-head .toggle-left{
+	background: url("images/panel/slidebuttons.png") -19px -18px;
+}
+
+.content.white .panel .panel-head .toggle-left.toggle-hide{
+	background: url("images/panel/slidebuttons.png") -38px -18px;
+}
+	/* 面板白色风格右边折叠 */
+.content.white .panel .panel-head .toggle-right{
+	background: url("images/panel/slidebuttons.png") -38px -18px;
+}
+.content.white .panel .panel-head .toggle-right.toggle-hide{
+	background: url("images/panel/slidebuttons.png") -19px -18px;
+}
+	/* 面板黑色风格 */
+.content.black .panel .panel-head{
+	background: url("images/panel/black-title.png");
+	color: #ccc;
+}
+.content.black .panel .panel-head .toggle{
+	background: url("images/panel/slidebuttons.png") right 0;
+}
+	/* 面板黑色风格左边折叠 */
+.content.black .panel .panel-head .toggle-left{
+	background: url("images/panel/slidebuttons.png") -19px 0;
+}
+
+.content.black .panel .panel-head .toggle-left.toggle-hide{
+	background: url("images/panel/slidebuttons.png") -38px 0;
+}
+	/* 面板黑色风格右边折叠 */
+.content.black .panel .panel-head .toggle-right{
+	background: url("images/panel/slidebuttons.png") -38px 0;
+}
+.content.black .panel .panel-head .toggle-right.toggle-hide{
+	background: url("images/panel/slidebuttons.png") -19px 0;
+}
+	/* 面板木色风格 */
+.content.wood .panel .panel-head{
+	background: url("images/panel/wood-title.jpg");
+	color: #948076;
+}
+.content.wood .panel .panel-head .toggle{
+	background: url("images/panel/slidebuttons.png") right -36px;
+}
+	/* 面板木色风格左边折叠 */
+.content.wood .panel .panel-head .toggle-left{
+	background: url("images/panel/slidebuttons.png") -19px -36px;
+}
+
+.content.wood .panel .panel-head .toggle-left.toggle-hide{
+	background: url("images/panel/slidebuttons.png") -38px -36px;
+}
+	/* 面板木色风格右边折叠 */
+.content.wood .panel .panel-head .toggle-right{
+	background: url("images/panel/slidebuttons.png") -38px -36px;
+}
+.content.wood .panel .panel-head .toggle-right.toggle-hide{
+	background: url("images/panel/slidebuttons.png") -19px -36px;
+}
+
+.panel .panel-head .toggle{
+	display: block;
+	height: 18px;
+	width: 18px;
+	background: url("images/panel/slidebuttons.png") right -18px;
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+.panel .panel-head .toggle.toggle-hide{
+	background-position: 0 -18px;
+}
+
+/* 修复tab跟panel结合的高度问题 */
+
+.panel-head .nav-tabs {
+	margin-bottom:0;
+	border:none;
+}
+.panel-head .nav-tabs > li > a {
+	padding-top:8px;
+	padding-bottom:7px;
+	color:#777;
+	font-weight:normal;
+}
+.panel-head .nav-tabs > li.active > a {
+	color:#333;
+}
+.nav-tabs > li > a {
+	font-size:14px;
+}
+
+.panel-head .pull-right {
+	padding-right:20px;
+}
+.panel-head .btn-group.pull-right {
+	padding-top:3px;
+}
+
+.panel-content legend{
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+/* 弹窗的panel样式 */
+.form-horizontal .panel {
+	margin-bottom:0;
+}
+/* btn-toolbar 分页条扩展 */
+.pagination {
+	_width:98%;
+}
+.pagination ul{
+	float:left;
+	margin-right:10px;
+}
+.pagination a {
+	line-height: 26px;
+    float: none;
+    border: 0;
+    padding: 4px 6px;
+    color: #888;
+}
+.pagination a.pagination-first-child {
+	border-left:1px solid #ddd;
+}
+.pagination .btn-toolbar .pager-total{
+	height:18px;
+	line-height:18px;
+	float:left;
+	padding:4px 0;
+}
+.pagination .btn-toolbar input {
+	float:left;
+	margin-bottom:0;
+}
+.pagination .btn-toolbar .pagesize {
+	float:left;
+	margin-right:10px;
+}
+
+/* 列表工具栏 */
+.table-toolbar .row-fluid{
+	margin-bottom:5px;
+}
+
+.toolbar table {
+	width:100%;
+	_width:98%;
+}
+.toolbar table th {
+	text-align:right;
+}
+td.toolbar-btns {
+	vertical-align:top;
+}
+
+/* 快捷图标 */
+.shortcut {
+	
+}
+.btn-shortcut {
+	padding:10px 5px;
+	width:85px;
+}
+.btn-shortcut .btn-text {
+	padding:5px 0 0 0;
+}
+.shortcut .btn-shortcut {
+	margin-right:10px;
+	margin-bottom:10px;
+	display:inline-block;
+	*margin-left:0;/* fix ie7 */
+}
+
+/* pager-header扩展 */
+.custom-header {
+}
+.custom-header h1 {
+	font-size:16px;
+	height:60px;
+	line-height:60px;
+}
+.custom-header h1 img {
+	padding:5px 5px 5px 0;
+}
+
+/* 表单扩展-table布局 */
+.form-table {
+	width:100%;
+	_width:98%;
+}
+.form-table th,
+.form-table td {
+	height:40px;
+}
+.form-table th {
+	background:#efefef;
+	border-bottom:2px solid #fff;
+	width:140px;
+	padding-right:5px;
+}
+.form-table td {
+	padding-left:5px;
+	border-bottom:2px solid #fff;
+}
+.form-table .control-label {
+	width:100%
+}
+table.col2 th {
+	width:30%;
+}
+table.col2 td {
+	width:70%;
+}
+table.col4 th {
+	width:15%;
+}
+table.col4 td {
+	width:35%;
+}
+table.col6 th {
+	width:10%;
+}
+table.col6 td {
+	width:23%;
+}
+table.col8 th {
+	width:8%;
+}
+table.col8 td {
+	width:17%;
+}
+table.col2 .form-actions {
+	padding-left:30%;
+}
+table.col4 .form-actions {
+	padding-left:15%;
+}
+table.col6 .form-actions {
+	padding-left:10%;
+}
+table.col8 .form-actions {
+	padding-left:8%;
+}
+
+/* new-list */
+.news-list .pull-right{
+	margin-left:10px;
+	float:right;
+}
+/* icon 扩展 */
+.icon-plus2,
+.icon-minus2 {
+	width:11px;
+	height:11px;
+	display:inline-block;
+	background:url(images/icon-toggle.png) no-repeat;
+	overflow:hidden;
+}
+.icon-minus2 {
+	background-position:0 -13px;
+}
+td.btn-toggle {
+	width:15px;
+	vertical-align:top;
+	padding:12px 0 0 0;
+}
+/* fieldset 扩展 */
+
+fieldset legend {
+	float:left;
+	margin-bottom:10px;
+	_width:98%;
+	_margin-left:-7px;
+	_padding-bottom:5px;
+}
+fieldset legend i {
+	margin-right:5px;
+}
+/*workflow 工作流扩展*/
+.workflow-panel caption{
+	text-align:left;
+	height:30px;
+	line-height:30px;
+	padding:0 10px;
+	font-weight:bold;
+	font-size:14px;
+}
+.workflow-panel .form-table{
+	margin-bottom:5px;
+}
+.workflow-panel .form-table,.workflow-panel .form-table th ,.workflow-panel .form-table td{
+	border:1px solid #e4e4e4;
+}

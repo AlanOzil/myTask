@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>任务管理平台</title>
+	<script type="text/javascript" src="/js/jquery-1.8.js"></script>
+	<script type="text/javascript" src="/js/google-maps.js"></script>
+	<script src="http://cdn.dowebok.com/106/js/selectordie.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.datepicker.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.datepicker-zh-CN.js"></script>
+	<script type="text/javascript" src="/js/views/myTask.js"></script>
+	<script type="text/javascript" src="/js/common.js"></script>
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/font-awesome.css" rel="stylesheet">
+	<link href="/css/base/jquery.ui.all.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://cdn.dowebok.com/106/css/selectordie.css">
+	<link href="/css/common.css" type="text/css" rel="stylesheet">
+	<link href="/css/views/myTask.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="business-module" id="myTask">  <!-- 我的——任务（日报） -->
+		<div class="module-header">  <!-- 页面头部 -->
+			<h2><i class="icon-tasks"></i>我的工作台</h2>
+			<div class="select-container">
+				<div class="select">
+					<select class="myselect">
+						<option value="交互设计">交互设计</option>
+						<option value="视觉设计">视觉设计</option>
+						<optgroup label="开发">
+							<option value="前端开发">前端开发</option>
+							<option value="后端开发">后端开发</option>
+						</optgroup>
+						<option value="用户研究">用户研究</option>
+						<option value="产品经理">产品经理</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="module-content">   <!-- 页面业务主体 -->
+			<div class="task-panel">
+				<div class="task-container" id="today">  <!-- 今天要做 -->
+					<div class="container-header">
+						<h4>今天要做</h4>
+						<div class="count">
+							1
+						</div>
+					</div>
+					<div class="container-content">
+						<div class="task-content">
+							<div class="content-header">
+								<input type="checkbox"> 任务1
+							</div>
+							<div class="content-content">
+								<div class="comment">
+									<i class="icon-comment"></i> <span>1</span>
+								</div>
+								<div class="important">
+									<i class="icon-star"></i>
+								</div>
+								<div class="title">
+									<i class="icon-desktop"></i><span> 完成测试工作</span>
+								</div>
+								<div class="status-done">已完成</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="container-footer">
+						<div class="new-task">
+							<i class="icon-plus-sign"></i> 新建任务
+						</div>
+					</div>
+				</div>
+				<div class="task-container" id="tomorrow">  <!-- 明天要做 -->
+					<div class="container-header">
+						<h4>明天要做</h4>
+						<div class="count">
+							1
+						</div>
+					</div>
+					<div class="container-content">
+						<div class="task-content">
+							<div class="content-header">
+								<input type="checkbox"> 任务1
+							</div>
+							<div class="content-content">
+								<div class="comment">
+									<i class="icon-comment"></i> <span>1</span>
+								</div>
+								<div class="important">
+									<i class="icon-star"></i>
+								</div>
+								<div class="title">
+									<i class="icon-desktop"></i><span> 部署</span>
+								</div>
+								<div class="status-todo">未完成</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="container-footer">
+						<div class="new-task">
+							<i class="icon-plus-sign"></i> 新建任务
+						</div>
+					</div>
+				</div>
+				<div class="task-container" id="week">  <!-- 本周要做 -->
+					<div class="container-header">
+						<h4>本周要做</h4>
+						<div class="count">
+							1
+						</div>
+					</div>
+					<div class="container-content">
+						<p>接下来会做的任务放到这里</p>
+					</div>
+					<div class="container-footer">
+						<div class="new-task">
+							<i class="icon-plus-sign"></i> 新建任务
+						</div>
+					</div>
+				</div>
+				<div class="task-container" id="month">  <!-- 本月要做 -->
+					<div class="container-header">
+						<h4>本月要做</h4>
+						<div class="count">
+							1
+						</div>
+					</div>
+					<div class="container-content">
+						<p>接下来会做的任务放到这里</p>
+					</div>
+					<div class="container-footer">
+						<div class="new-task">
+							<i class="icon-plus-sign"></i> 新建任务
+						</div>
+						<!-- <div class="entry-content">
+							<input class="task-title" placeholder="请输入任务标题">
+							<textarea class="task-content" placeholder="请输入任务内容"></textarea>
+							<div class="btn-panel">
+								<input type="button" class="btn-confirm" value="确认">
+								<input type="button" class="btn-cancel" value="取消">
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pop-module" id="newTask" style="display: none">   <!-- 我的——新增任务 -->
+		<div class="module-header">
+			<h2>修改任务内容</h2>
+			<i class="icon-remove"></i>
+		</div>
+		<div class="module-content">
+			<table class="task-table">
+				<tbody>
+					<tr>
+						<th style="text-align: center;"><input type="checkbox"></th>
+						<td id="title">任务1</td>
+					</tr>
+					<tr>
+						<th>负责：</th>
+						<td id="person">王峥睿</td>
+						<th>截止时间：</th>
+						<td id="deadline">2017-02-05</td>
+					</tr>
+					<tr>
+						<th>任务类型：</th>
+						<td id="type">
+							<div class="select-container">
+								<div class="select">
+									<select class="myselect">
+										<option value="交互设计">交互设计</option>
+										<option value="视觉设计">视觉设计</option>
+										<optgroup label="开发">
+											<option value="前端开发">前端开发</option>
+											<option value="后端开发">后端开发</option>
+										</optgroup>
+										<option value="用户研究">用户研究</option>
+										<option value="产品经理">产品经理</option>
+									</select>
+								</div>
+							</div>
+						</td>
+						<th>状态：</th>
+						<td id="status">未完成</td>
+					</tr>
+					<tr>
+						<th>描述：</th>
+						<td colspan="2"><textarea id="desc"></textarea></td>
+					</tr>
+					<tr>
+						<th style="padding-top: 10px;">评论：</th>
+						<td colspan="2" style="padding-top: 10px;"><textarea id="comment"></textarea></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="btn-panel">
+				<input type="button" class="btn-confirm" value="确认">
+				<input type="button" class="btn-cancel" value="取消">
+			</div>
+		</div>
+	</div>
+	<!-- 遮罩层 -->
+	<div class="mask-module"></div>
+</body>
+</html>
