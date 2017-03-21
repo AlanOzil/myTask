@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>任务管理平台</title>
+	<script type="text/javascript" src="/js/jquery-1.8.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.core.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.widget.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.datepicker.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.datepicker-zh-CN.js"></script>
+	<script type="text/javascript" src="/js/common.js"></script>
+	<script type="text/javascript" src="/js/echarts.js"></script>
+	<script type="text/javascript" src="/js/views/statistics.js"></script>
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/font-awesome.css" rel="stylesheet">
+	<link href="/css/base/jquery.ui.all.css" rel="stylesheet">
+	<link href="/css/common.css" type="text/css" rel="stylesheet">
+	<link href="/css/views/statistics.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+	<div class="business-module" id="statistics">  <!-- 我的——任务（日报） -->
+		<div class="module-header">  <!-- 页面头部 -->
+			<h2><i class="icon-tasks"></i>统计</h2>
+			<div class="nav_tab">
+				<ul>
+					<li class="active">部门</li>
+					<li>个人</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+		<div class="module-content" id="department">   <!-- 页面业务主体-部门 -->
+			<div class="dept-panel">
+				<div class="select-panel">
+					
+				</div>
+				<div class="dept-report">
+					<h1>部门任务准时提交率</h1>
+					<div id="main1" class="echarts-panel"></div>
+				</div>
+				<div class="dept-report">
+					<h1>任务类型占比</h1>
+					<!-- <div id="main2" class="echarts-panel"></div> -->
+				</div>
+				<div class="dept-report">
+					<h1>部门任务整体计划完成率</h1>
+					<!-- <div id="main3" class="echarts-panel"></div> -->
+				</div>
+			</div>
+		</div>
+		<div class="module-content" id="personal" style="display: none">    <!-- 页面业务主体-个人 -->
+			<div class="report-panel">
+				<div class="week-report this-week-report">    <!-- 本周周报 -->
+					
+				</div>
+				<div class="week-report next-week-report">    <!-- 下周周报 -->
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>

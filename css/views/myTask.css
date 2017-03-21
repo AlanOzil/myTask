@@ -1,50 +1,16 @@
-
-#myTask .module-header
-{
-    width: 100%;
-    height: 80px;
-
-    background-color: #fff;
-}
-
-#myTask .module-header h2
-{
-    font-size: 20px;
-    line-height: 24px;
-    float: left;
-    padding: 28px;
-}
-
-#myTask .module-header h2 i
-{
-    font-size: 18px;
-    line-height: 24px !important;
-
-    float: left;
-
-    width: 28px;
-
-    text-align: center;
-}
-
-#myTask .module-header .select-container
+.business-module .module-header .select-container
 {
     float: right;
 
     padding: 16px;
 }
 
-#myTask .module-content
-{
-    width: 100%;
-}
-
-#myTask .module-content .task-panel
+.task-panel
 {
     padding-top: 20px;
 }
 
-#myTask .module-content .task-panel .task-container
+.task-panel .task-container
 {
     position: relative;
 
@@ -58,12 +24,12 @@
     background-color: #eeece8;
 }
 
-#myTask .module-content .task-panel .task-container .container-header
+.task-panel .task-container .container-header
 {
     height: 40px;
 }
 
-#myTask .module-content .task-panel .task-container .container-header h4
+.task-panel .task-container .container-header h4
 {
     font-size: 16px;
     font-weight: 500;
@@ -76,7 +42,7 @@
     color: #6f6e6b;
 }
 
-#myTask .module-content .task-panel .task-container .container-header .count
+.task-panel .task-container .container-header .count
 {
     font-size: 12px;
     font-weight: 400;
@@ -92,20 +58,20 @@
     color: #bcb7af;
 }
 
-#myTask .module-content .task-panel .task-container .container-content
+.task-panel .task-container .container-content
 {
     min-height: 50px;
     margin: 0 7px;
     color: #b9b9b7;
 }
 
-#myTask .module-content .task-panel .task-container .container-content p
+.task-panel .task-container .container-content p
 {
     line-height: 50px;
     text-align: center;
 }
 
-#myTask .module-content .task-panel .task-container .container-footer .new-task
+.task-panel .task-container .container-footer .new-task
 {
     font-size: 14px;
     line-height: 40px;
@@ -114,19 +80,19 @@
     color: #bcb7af;
 }
 
-#myTask .module-content .task-panel .task-container .container-footer .new-task:hover
+.task-panel .task-container .container-footer .new-task:hover
 {
     cursor: pointer;
     color: #acaba7;
 }
 
-#myTask .module-content .task-panel .task-container .container-footer .entry-content
+.task-panel .task-container .container-footer .entry-content
 {
     padding: 8px 7px;
 }
 
-#myTask .module-content .task-panel .task-container .container-footer .entry-content input.task-title,
-#myTask .module-content .task-panel .task-container .container-footer .entry-content textarea
+.task-panel .task-container .container-footer .entry-content input.task-title,
+.task-panel .task-container .container-footer .entry-content textarea
 {   
 	resize: vertical;
     padding: 6px 5%;
@@ -144,20 +110,20 @@
             box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 
-#myTask .module-content .task-panel .task-container .container-footer .entry-content textarea.task-content
+.task-panel .task-container .container-footer .entry-content textarea.task-content
 {
     height: 60px;
     margin-top: 5px;
 }
 
-#myTask .module-content .task-panel .task-container .container-footer .entry-content .btn-panel{
+.task-panel .task-container .container-footer .entry-content .btn-panel{
     height: 35px;
     line-height: 35px;
     margin-top: 7px;
     text-align: center;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content
+.task-panel .task-container .container-content .task-content
 {
     min-height: 50px;
     padding: 0 10px;
@@ -169,17 +135,17 @@
     border-left: 2px solid transparent;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content:first-child{
+.task-panel .task-container .container-content .task-content:first-child{
 	margin-top: 0px
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content:hover{
+.task-panel .task-container .container-content .task-content:hover{
 	border-left: 2px solid #222;
 	cursor: pointer;
 	background-color: #fbfbfb;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content .content-header
+.task-panel .task-container .container-content .task-content .content-header
 {
     line-height: 30px;
 
@@ -188,7 +154,7 @@
     color: #484744;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content .content-content
+.task-panel .task-container .container-content .task-content .content-content
 {
     line-height: 25px;
 
@@ -198,24 +164,24 @@
     margin-left: 20px;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content .content-content .important .icon-star
+.task-panel .task-container .container-content .task-content .content-content .important .icon-star
 {
     color: red;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content .content-content div
+.task-panel .task-container .container-content .task-content .content-content div
 {
     display: inline-block;
 
     margin-right: 15px;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content .content-content div:first-child
+.task-panel .task-container .container-content .task-content .content-content div:first-child
 {
     margin-left: 0;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content .content-content .status-done
+.task-panel .task-container .container-content .task-content .content-content .status-done
 {
     line-height: 18px;
 
@@ -227,7 +193,7 @@
     background-color: #0aa770;
 }
 
-#myTask .module-content .task-panel .task-container .container-content .task-content .content-content .status-todo
+.task-panel .task-container .container-content .task-content .content-content .status-todo
 {
     line-height: 18px;
 
@@ -237,127 +203,4 @@
     color: #fff;
     border-radius: 3px;
     background-color: #e74c3c;
-}
-
-#newTask .module-header{
-	height: 45px;
-	width: 100%;
-	border-bottom: 1px solid #ddd;
-}
-
-#newTask .module-header h2{
-	float: left;
-    font-size: 22px;
-    padding: 5px 0 5px 20px;
-    font-weight: bold;
-}
-
-#newTask .module-header i{
-	float: right;
-    font-size: 16px;
-    padding: 15px 20px 5px 0px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-#newTask .module-content{
-	min-height: 354px;
-    padding: 20px;
-}
-
-#newTask .module-content .task-table{
-	line-height: 40px;
-    font-size: 16px;
-}
-
-#newTask .module-content .task-table th{
-	text-align: right;
-    width: 100px;    
-    vertical-align: top;
-}
-
-#newTask .module-content .task-table td{
-	text-align: left;
-    width: 150px;
-}
-
-#newTask .module-content .task-table td textarea{
-	resize: vertical;
-    height: 50px;
-    padding: 6px 6px;
-    font-size: 14px;
-    width: 100%;
-    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    border-radius: 3px;
-    background-color: #fff;
-    background-image: none;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-}
-
-#newTask .module-content .task-table input[type!=checkbox]{
-    width: 130px;
-}
-
-#newTask .module-content .btn-panel{
-	padding-top: 25px;
-    text-align: center;
-}
-
-#myTask .nav_tab{
-    line-height: 80px;
-    height: 80px;
-    margin-left: 28%;
-    margin-right: 28%;
-    width: 43%;
-    white-space: nowrap;
-    text-align: center;
-}
-
-#myTask .nav_tab ul{
-    margin: 0px;
-    padding: 0px;
-    height: 80px;
-}
-
-#myTask .nav_tab ul li{
-    position: relative;
-    display: inline-block;
-    margin: 0 5px 0 6px;
-    padding: 0;    
-    font-size: 16px;
-    border-bottom: solid 2px transparent;
-    padding: 14px 8px 29px 8px;
-    color: #777;
-    cursor: pointer;
-}
-
-#myTask .nav_tab ul li:hover{
-    color: #484744;
-}
-
-#myTask .nav_tab ul li.active{
-    color: #da4f4a;
-    border-bottom-color: #da4f4a;
-}
-
-#report .report-panel{
-    height: 100%;
-    width: 100%;
-}
-
-#report .week-report{
-    float: left;
-    height: 80%;
-    width: 30%;
-    padding: 5% 10%;
-}
-
-#report .week-report h1{
-    font-size: 24px;
-    font-weight: bold;
 }

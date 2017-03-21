@@ -11,15 +11,25 @@ $(function(){
 		var index = $(this).index();
 		switch(index) {
 			case 1:
-				$("iframe").src = "views/myTask.html";
+				$("iframe").attr("src", "views/myTask.html");
 				break;
 			case 2:
-				$("iframe").src = "views/myTask.html";
+				//$("iframe").src = "views/myTask.html";
 				break;
 			case 3:
-				$("iframe").src = "views/myTask.html";
+				$("iframe").attr("src", "views/statistics.html");return false;
 				break;
 			default: break;
 		}
-	})
+	});
 });
+
+function startLoading(){
+	$("#loading-mask").css("display", "block");
+	$("#loading-panel").slideDown();
+}
+
+function endLoading(){
+	$("#loading-mask").css("display", "none");
+	$("#loading-panel").slideUp();
+}
