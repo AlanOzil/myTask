@@ -1,7 +1,9 @@
 $(function(){
 	height = $(window).height();
 	$("#statistics .module-content").css("height", height - 80);
-	loadEcharts();
+	loadEcharts("main1");
+	loadEcharts("main2");
+	loadEcharts("main3");
 	//页面切换
 	$("#statistics .nav_tab ul li").click(function(){
 		$("#statistics .nav_tab ul li").removeClass('active');
@@ -21,8 +23,8 @@ $(function(){
 	});
 })
 
-function loadEcharts(){
-		var myChart = echarts.init(document.getElementById('main1'));
+function loadEcharts(id){
+		var myChart = echarts.init(document.getElementById(id));
 
         // 指定图表的配置项和数据
         var option = {

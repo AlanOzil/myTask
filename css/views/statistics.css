@@ -9,8 +9,8 @@
 .dept-panel .dept-report{
     float: left;
     width: 29.33%;
-    height: 75%;
-    padding: 3% 2%;
+    height: 87%;
+    padding: 0% 2%;
 }
 .dept-panel .dept-report h1{
     font-size: 24px;
@@ -20,4 +20,91 @@
 .echarts-panel{
     width: 100%;
     height: 80%;
+}
+
+.personal-panel>div.week-report{
+    height: 90%;
+    padding: 5% 10% 0% 10%;
+}
+
+.personal-report{
+    width: 80%;
+    height: 70%;
+    border: 2px solid #da4f4a;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.personal-report .report-item>div.rank{
+    float:left;
+    height: 35px;
+    line-height: 35px;
+    width: 25%;
+    text-align: center;
+}
+
+.personal-report .report-item>div.name{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    width: 50%;
+}
+
+.personal-report .report-item>div.percent{
+    float: right;
+    height: 35px;
+    line-height: 35px;
+    width: 25%;
+}
+
+.page-btn{
+    height: 40px;
+    width: 80%;
+    margin: 0 20px;
+}
+
+.page-btn>div{
+    float: left;
+    margin-right: 15px;
+    height: 35px;
+    width: 60px;
+    background-color: #999999;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 25px;
+    color: #000;
+    position: relative;
+}
+
+.page-btn>div:hover{
+    background-color: #ffe900;
+}
+
+.page-btn .logo{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    left: 17px;
+}
+
+.page-up:hover .logo,
+.page-down:hover .logo{
+    -webkit-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration:.5s;
+    transition-duration:.5s;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-transition-delay: .18s;
+    transition-delay:.18s;
+}
+
+.page-up:hover #page-up-logo{
+    left: 0px;
+}
+
+.page-down:hover #page-down-logo{
+    left: 30px;
 }
