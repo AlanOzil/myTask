@@ -446,7 +446,7 @@ function Calendar(element, options, eventSources) {
 		}
 		else {
 			//suggestedViewHeight = Math.round(content.width() / Math.max(options.aspectRatio, .5));
-			suggestedViewHeight = $(window).height() - parseFloat($(".fc-header").css("height")) - 80;
+			suggestedViewHeight = $(window).height() - parseInt($(".fc-header").css("height")) - 81;
 		}
 	}
 	
