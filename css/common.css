@@ -323,11 +323,14 @@ input.btn-confirm:hover {
     margin-top: 5px;
     vertical-align: top;
 }
-
-.fc-widget-content>div{
-    min-height: 86px !important;
-    max-height: 85px !important;
+.fc-view{
+    height: 100%;
+    overflow-y: auto;
 }
-.fc-header-right{
-    display: none;
+.fc-border-separate{
+    height: 100%;
+}
+thead .fc-first{
+    height: 25px;
+    line-height: 25px;
 }

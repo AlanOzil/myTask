@@ -204,4 +204,6 @@ function initCalendar(){
             }
         ]
     });
+
+    $(".fc-header-right").children().remove();
 }
