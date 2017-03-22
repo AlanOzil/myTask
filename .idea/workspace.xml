@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c79c0c79-5bc6-4d0a-8ddd-cd38ea4dfdb4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/build/compiler.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-icons_2694e8_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-icons_3d80b3_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-icons_72a7cf_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_nav_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_nav_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_shadow_e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_shadow_n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_shadow_ne.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_shadow_nw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_shadow_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_shadow_se.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_shadow_sw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_shadow_w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_title_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_title_main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_title_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancy_title_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancybox-x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancybox-y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/fancybox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/errorIcon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/firebug.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/firebug_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/infoIcon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/tree_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/tree_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/warningIcon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/myTask.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/GPL-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/README.mkd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/build/externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/agenda-views.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/basic-views.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/cupertino/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/external-dragging.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/gcal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/json-events.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/json.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/selectable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/demos/theme.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/gcal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/Calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/EventManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/Header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/_loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/agenda/AgendaDayView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/agenda/AgendaEventRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/agenda/AgendaView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/agenda/AgendaWeekView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/agenda/agenda.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/basic/BasicDayView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/basic/BasicEventRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/basic/BasicView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/basic/BasicWeekView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/basic/MonthView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/basic/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/CoordinateGrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/DayEventRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/HorizontalPositionCache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/HoverListener.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/OverlayManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/SelectionManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/View.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/common/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/date_util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/gcal/_loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/gcal/gcal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/src/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/dbclick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/droppable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/fullheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/gcal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/iframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_206_parseDate_dst.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_220_buttons_ie6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_221_quick_remove_source.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_230_height_json_events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_244_aspectRatio_0.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_251_empty_end_date.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_333_blinking.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_417_refetchEvents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_429_gotoDate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_477_event_width.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_517_js_error_ie.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_554.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_586_refetchEvents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_616.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_679.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_688_parseInt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_740_event_resizing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_750.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/issue_757_removeEvents.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/jquery.easing-1.3.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/jquery.fancybox-1.3.4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/jquery.fancybox-1.3.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/jquery.fancybox-1.3.4.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/fancybox/jquery.mousewheel-3.0.4.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/ChangeLog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/firebug-lite-compressed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/firebug-lite.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/firebug-lite/firebug-lite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/jquery-1.4.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/lib/jquery.ui.tabs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/liquidwidth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/locale.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/many_agenda_events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/many_agenda_events_json.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/many_events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/many_events_json.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/method_destroy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/methods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/plain.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/selectable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/short_agenda.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/skip-redraw-test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/sources.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/sources_new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/stacking.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/theming.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/tests/triggers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fullcalendar/version.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.3.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.7.3.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-ui-1.8.23.custom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/views/myTask.js" afterPath="$PROJECT_DIR$/js/views/myTask.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/myTask.html" afterPath="$PROJECT_DIR$/views/myTask.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="fullcalendar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/fullcalendar/fullcalendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="61" column="66" lean-forward="false" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1490150323465" expanded="true" signature="5399:5416" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="7631:7648" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="15427:15437" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="16105:16111" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="49497:49507" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="50080:50097" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="50099:50105" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="50810:50850" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="66474:66484" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="66626:66632" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="66829:66835" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="66951:66957" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="67159:67176" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="67178:67184" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="67302:67308" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="67978:68023" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="68132:68172" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="68234:68244" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="68448:68465" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="68546:68552" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="69141:69203" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="69274:69318" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="69401:69441" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="69526:69536" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="69945:69951" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="70029:70046" ph="..." />
+                <marker date="1490150323465" expanded="true" signature="70048:70054" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="111909:111915" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="111915:111921" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="111921:111927" ph="&amp;nbsp;" />
+                <marker date="1490150323465" expanded="true" signature="121565:121592" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changelog.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullcalendar/changelog.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="303" column="10" lean-forward="false" selection-start-line="303" selection-start-column="10" selection-end-line="303" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defaults.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/defaults.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agenda-views.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullcalendar/demos/agenda-views.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullcalendar.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullcalendar/fullcalendar.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="14" column="13896" lean-forward="false" selection-start-line="14" selection-start-column="13884" selection-end-line="14" selection-end-column="13896" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calendar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/Calendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="16" />
+              <folding>
+                <marker date="1377986400000" expanded="true" signature="1873:1890" ph="..." />
+                <marker date="1377986400000" expanded="true" signature="4105:4122" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myTask.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/myTask.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="164" column="48" lean-forward="false" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="48" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1490149082986" expanded="false" signature="5592:5605" ph="..." />
+                <marker date="1490149082986" expanded="false" signature="5606:9027" ph="..." />
+                <marker date="1490149082986" expanded="false" signature="5816:5827" ph="..." />
+                <marker date="1490149082986" expanded="false" signature="7489:7500" ph="..." />
+                <marker date="1490149082986" expanded="false" signature="9082:9095" ph="..." />
+                <marker date="1490149082986" expanded="false" signature="9307:9326" ph="..." />
+                <marker date="1490149082986" expanded="false" signature="10257:10275" ph="..." />
+                <marker date="1490149082986" expanded="false" signature="10315:10333" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-134">
+              <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myTask.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/views/myTask.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="151" column="28" lean-forward="false" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>element</find>
+      <find>fullCalendar</find>
+      <find>日历</find>
+      <find>nav_tab</find>
+      <find>titleFormat</find>
+      <find>task</find>
+      <find>formatDate</find>
+      <find>today</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/fullcalendar/src/_loader.js" />
+        <option value="$PROJECT_DIR$/js/views/myTask.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/views/myTask.html" />
+        <option value="$PROJECT_DIR$/js/fullcalendar/fullcalendar.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullcalendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullcalendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullcalendar.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullcalendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullcalendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fullcalendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cupertino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkFile\GitHub\myTask\js\fullcalendar" />
+      <recent name="D:\WorkFile\GitHub\myTask\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkFile\GitHub\myTask\js\fullcalendar" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="myTask" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c79c0c79-5bc6-4d0a-8ddd-cd38ea4dfdb4" name="Default" comment="" />
+      <created>1490062787409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490062787409</updated>
+      <workItem from="1490062788907" duration="11375000" />
+      <workItem from="1490147774080" duration="3825000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15200000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.400906" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.400906" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18347639" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/fullcalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="116" column="17" lean-forward="false" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1490150323465" expanded="true" signature="5399:5416" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="7631:7648" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="15427:15437" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="16105:16111" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="49497:49507" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="50080:50097" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="50099:50105" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="50810:50850" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="66474:66484" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="66626:66632" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="66829:66835" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="66951:66957" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="67159:67176" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="67178:67184" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="67302:67308" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="67978:68023" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="68132:68172" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="68234:68244" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="68448:68465" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="68546:68552" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="69141:69203" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="69274:69318" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="69401:69441" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="69526:69536" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="69945:69951" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="70029:70046" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="70048:70054" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="111909:111915" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="111915:111921" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="111921:111927" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="121565:121592" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/demos/agenda-views.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/fullcalendar.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="13896" lean-forward="false" selection-start-line="14" selection-start-column="13884" selection-end-line="14" selection-end-column="13896" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/Calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <marker date="1377986400000" expanded="true" signature="1873:1890" ph="..." />
+            <marker date="1377986400000" expanded="true" signature="4105:4122" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/_loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <marker date="1490066765954" expanded="true" signature="1536:1610" ph="..." />
+            <marker date="1490066765954" expanded="true" signature="1770:1791" ph="..." />
+            <marker date="1490066765954" expanded="true" signature="1998:2019" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/myTask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1490149082986" expanded="false" signature="5592:5605" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="5606:9027" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="5816:5827" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="7489:7500" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="9082:9095" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="9307:9326" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="10257:10275" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="10315:10333" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/myTask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/common/DayEventRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490001213013" expanded="true" signature="5538:5544" ph="&amp;nbsp;" />
+            <marker date="1490001213013" expanded="true" signature="5544:5550" ph="&amp;nbsp;" />
+            <marker date="1490001213013" expanded="true" signature="5550:5556" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/gcal/gcal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/version.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/gcal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/outro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/intro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/common/HoverListener.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/common/HorizontalPositionCache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/common/DayEventRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490001213013" expanded="true" signature="5538:5544" ph="&amp;nbsp;" />
+            <marker date="1490001213013" expanded="true" signature="5544:5550" ph="&amp;nbsp;" />
+            <marker date="1490001213013" expanded="true" signature="5550:5556" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.3.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/_loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <marker date="1490066765954" expanded="true" signature="1536:1610" ph="..." />
+            <marker date="1490066765954" expanded="true" signature="1770:1791" ph="..." />
+            <marker date="1490066765954" expanded="true" signature="1998:2019" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/Calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <marker date="1377986400000" expanded="true" signature="1873:1890" ph="..." />
+            <marker date="1377986400000" expanded="true" signature="4105:4122" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1" column="875" lean-forward="false" selection-start-line="1" selection-start-column="875" selection-end-line="1" selection-end-column="875" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/fullcalendar.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="14" column="13896" lean-forward="false" selection-start-line="14" selection-start-column="13884" selection-end-line="14" selection-end-column="13896" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/demos/agenda-views.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/myTask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="151" column="28" lean-forward="false" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/myTask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="164" column="48" lean-forward="false" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1490149082986" expanded="false" signature="5592:5605" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="5606:9027" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="5816:5827" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="7489:7500" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="9082:9095" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="9307:9326" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="10257:10275" ph="..." />
+            <marker date="1490149082986" expanded="false" signature="10315:10333" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/src/defaults.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/changelog.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="303" column="10" lean-forward="false" selection-start-line="303" selection-start-column="10" selection-end-line="303" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fullcalendar/fullcalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="61" column="66" lean-forward="false" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1490150323465" expanded="true" signature="5399:5416" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="7631:7648" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="15427:15437" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="16105:16111" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="49497:49507" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="50080:50097" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="50099:50105" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="50810:50850" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="66474:66484" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="66626:66632" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="66829:66835" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="66951:66957" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="67159:67176" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="67178:67184" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="67302:67308" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="67978:68023" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="68132:68172" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="68234:68244" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="68448:68465" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="68546:68552" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="69141:69203" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="69274:69318" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="69401:69441" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="69526:69536" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="69945:69951" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="70029:70046" ph="..." />
+            <marker date="1490150323465" expanded="true" signature="70048:70054" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="111909:111915" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="111915:111921" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="111921:111927" ph="&amp;nbsp;" />
+            <marker date="1490150323465" expanded="true" signature="121565:121592" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
