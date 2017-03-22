@@ -9,7 +9,6 @@ $(function(){
 
 	//新建任务
 	$("#myTask .new-task").click(function(){
-		var id = $(this).parent().parent().attr("id");
 		$(this).css("display","none");
 		var html = newTaskTemplate();
 		$(this).parent().append(html);
@@ -25,9 +24,38 @@ $(function(){
 			$this.parent().parent().find(".container-content").append(html);
 			$this.parent().find(".new-task").css("display","block");
 			$this.remove();
+			$("#myTask .task-content").unbind();
+			bindTask();
 		});
 	});
 
+	bindTask();
+
+
+	//页面切换
+	$("#myTask .nav_tab ul li").click(function(){
+		$("#myTask .nav_tab ul li").removeClass('active');
+		$(this).addClass('active');
+		var index = $(this).index();
+		switch(index) {
+			case 0:
+				$("#report").css("display", "none");
+				$("#task").css("display", "block");
+				break;
+			case 1:
+				$("#report").css("display", "none");
+				$("#task").css("display", "none");
+				break;
+			case 2:
+				$("#report").css("display", "block");
+				$("#task").css("display", "none");
+				break;
+			default: break;
+		}
+	});
+});
+
+function bindTask(){
 	// 点击任务模块出发编辑
 	$("#myTask .task-content").click(function(){
 		$(".mask-module").css("display","block");
@@ -61,30 +89,7 @@ $(function(){
 	editTask();
 	editDate();
 	editStatus();
-
-
-	//页面切换
-	$("#myTask .nav_tab ul li").click(function(){
-		$("#myTask .nav_tab ul li").removeClass('active');
-		$(this).addClass('active');
-		var index = $(this).index();
-		switch(index) {
-			case 0:
-				$("#report").css("display", "none");
-				$("#task").css("display", "block");
-				break;
-			case 1:
-				$("#report").css("display", "none");
-				$("#task").css("display", "none");
-				break;
-			case 2:
-				$("#report").css("display", "block");
-				$("#task").css("display", "none");
-				break;
-			default: break;
-		}
-	});
-});
+}
 
 function newTaskTemplate(){
 	var html = "";			

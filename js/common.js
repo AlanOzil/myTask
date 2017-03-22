@@ -33,16 +33,25 @@ function editDate(){
 		$("#datepicker").focus();
 
 		$("#newTask #datepicker").change(function(event) {
-			var newDate = $(this).val();
-			$("#newTask #deadline").html(newDate);
+			date = $(this).val();
+			$("#newTask #deadline").html(date);
+		});
+
+		var isBlur = true;
+		$("#ui-datepicker-div").click(function(){
+			isBlur = false;
+		});
+		$("#ui-datepicker-div").blur(function(){
+			isBlur = true;
 		});
 		$("#newTask #datepicker").blur(function(){
 			setTimeout(function(){
 				var newDate = $("#newTask #datepicker").val();
-				if(newDate == "")
+				if(newDate == "" && isBlur == true){
 					$("#newTask #deadline").html(date);
+					isBlur = true;
+				}
 			},500);
-			
 		})
 	});
 }
