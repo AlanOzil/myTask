@@ -315,3 +315,19 @@ input.btn-confirm:hover {
     font-weight: bold;
     margin-bottom: 10%;
 }
+
+
+/*日历控件样式*/
+.fc-header .fc-button {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.fc-widget-content>div{
+    min-height: 86px !important;
+    max-height: 85px !important;
+}
+.fc-header-right{
+    display: none;
+}
