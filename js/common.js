@@ -65,3 +65,43 @@ function editStatus(){
 			$("#newTask #status").html("未完成");
 	})
 }
+
+// 点击任务模块触发编辑
+function bindTask(id){
+	$(".task-content").click(function(){
+		$(".mask-module").css("display","block");
+		$("#" + id).fadeIn();
+	});
+}
+
+function initTask(id){
+	// 点击任务模块触发编辑
+	bindTask(id)
+	// 关闭按钮
+	$(".pop-module .btn-cancel").click(function(){
+		$("#" + id).fadeOut();
+		$(".mask-module").css("display","none");
+	});
+	$(".pop-module .icon-remove").click(function(){
+		$("#" + id).fadeOut();
+		$(".mask-module").css("display","none");
+	});
+
+	// 确认按钮
+	$(".pop-module .btn-confirm").click(function(){
+		$("#" + id).fadeOut();
+		$(".mask-module").css("display","none");
+		var title = $("#"+id+" #title").html();
+		var desc = $("#"+id+" #desc").html();
+		var comment = $("#"+id+" #comment").html();
+	});
+	// 阻止事件冒泡
+	$(".pop-module input[type=checkbox]").click(function(e){
+		e.stopPropagation();
+	});
+	// 编辑模块中，点击控件，可编辑
+	editTask();
+	editDate();
+	editStatus();
+
+}

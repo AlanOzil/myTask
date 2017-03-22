@@ -305,7 +305,7 @@ input.btn-confirm:hover {
 
 .module-content .week-report{
     float: left;
-    height: 80%;
+    height: 78%;
     width: 30%;
     padding: 5% 10%;
 }
@@ -329,4 +329,8 @@ input.btn-confirm:hover {
 }
 .fc-border-separate{
     height: 100%;
+}
+.fc-event{
+    height: 23px;
+    line-height: 23px;
 }
