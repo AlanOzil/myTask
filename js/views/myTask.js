@@ -26,12 +26,11 @@ $(function(){
 			$this.parent().find(".new-task").css("display","block");
 			$this.remove();
 			$("#myTask .task-content").unbind();
-			bindTask();
+			bindTask("newTask");
 		});
 	});
 
-	bindTask();
-
+	initTask("newTask");
 
 	//页面切换
 	$("#myTask .nav_tab ul li").click(function(){
@@ -60,42 +59,6 @@ $(function(){
 		}
 	});
 });
-
-function bindTask(){
-	// 点击任务模块出发编辑
-	$("#myTask .task-content").click(function(){
-		$(".mask-module").css("display","block");
-		$("#newTask").fadeIn();
-
-		// 关闭按钮
-		$("#newTask .btn-cancel").click(function(){
-			$("#newTask").fadeOut();
-			$(".mask-module").css("display","none");
-		});
-		$("#newTask .icon-remove").click(function(){
-			$("#newTask").fadeOut();
-			$(".mask-module").css("display","none");
-		});
-
-		// 确认按钮
-		$("#newTask .btn-confirm").click(function(){
-			$("#newTask").fadeOut();
-			$(".mask-module").css("display","none");
-			var title = $("#newTask #title").html();
-			var desc = $("#newTask #desc").html();
-			var comment = $("#newTask #comment").html();
-		});
-	});
-	// 阻止事件冒泡
-	$("#myTask input[type=checkbox]").click(function(e){
-		e.stopPropagation();
-	});
-
-	// 编辑模块中，点击控件，可编辑
-	editTask();
-	editDate();
-	editStatus();
-}
 
 function newTaskTemplate(){
 	var html = "";			
