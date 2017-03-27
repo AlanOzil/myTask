@@ -72,6 +72,10 @@ function bindTask(id){
 		$(".mask-module").css("display","block");
 		$("#" + id).fadeIn();
 	});
+	// 阻止事件冒泡
+	$(".business-module input[type=checkbox]").click(function(e){
+		e.stopPropagation();
+	});
 }
 
 function initTask(id){
@@ -94,10 +98,6 @@ function initTask(id){
 		var title = $("#"+id+" #title").html();
 		var desc = $("#"+id+" #desc").html();
 		var comment = $("#"+id+" #comment").html();
-	});
-	// 阻止事件冒泡
-	$(".pop-module input[type=checkbox]").click(function(e){
-		e.stopPropagation();
 	});
 	// 编辑模块中，点击控件，可编辑
 	editTask();

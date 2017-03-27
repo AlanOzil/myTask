@@ -53,7 +53,7 @@ $(function(){
 			case 2:
 				$("#report").css("display", "block");
 				$("#task").css("display", "none");
-                $("#calendar").css("display", "none");
+                $("#calendar").css("display", "none");loadWeeklyTask();
 				break;
 			default: break;
 		}
@@ -169,4 +169,27 @@ function initCalendar(){
     });
 
     $(".fc-header-right").children().remove();
+}
+
+function loadWeeklyTask(){
+	top.startLoading();
+	$.post("http://localhost:8016/Ashx/BingoTaskHandler.ashx?action=WeeklyTask-GetCurrentWeekInfo", 
+		{},
+		function(data){
+			data = JSON.parse(data);
+			if(data.Success){
+				var param = {args:"{UserId:'admin',BelongYear:2017,WeekOfYear:"+data.Data.WeekOfYear+"}"}
+				$.post("http://localhost:8016/Ashx/BingoTaskHandler.ashx?action=WeeklyTask-GetWeeklyTask", 
+						param,  
+						function(res){
+							res = JSON.parse(res);
+							top.endLoading();
+							if(res.Success){
+							}
+						});
+			}
+		}
+	);
+
+	
 }

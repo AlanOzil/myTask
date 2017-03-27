@@ -31,5 +31,5 @@ function startLoading(){
 
 function endLoading(){
 	$("#loading-mask").css("display", "none");
-	$("#loading-panel").slideUp();
+	$("#loading-panel").css("display", "none");
 }
