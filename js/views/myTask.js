@@ -120,6 +120,13 @@ function initCalendar(){
             calendar.fullCalendar('unselect');
         },
         editable: true,
+        disableDragging:true,
+        eventClick: function(calEvent, jsEvent, view) {
+
+            $(".mask-module").css("display","block");
+            $("#newTask").fadeIn();
+        },
+
         events: [
             {
                 title: 'All Day Event',
